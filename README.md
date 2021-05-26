@@ -6,4 +6,5 @@ This particular thread will then be the only thread that will update the variabl
 - <ins>So Thread Serialization</ins> means to make sure that a certain set of events occurs in a sequence not at the same time [(src)](https://stackoverflow.com/questions/14654230/what-does-it-mean-by-thread-serialization-in-c#:~:text=So%20Thread%20Serialization%20means%20to,occur%20at%20the%20same%20time.)
 - <ins>Reentrancy</ins> are Some functions designed to not use global variables, strtok (for tokenizing C character string, retains state between
 calls) is non reetrant function, Non-reentrant functions are dangerous for multithreaded programs (and also cause issues when called from recursive functions) [(src)](http://www.cs.jhu.edu/~phi/csf/slides/lecture-threads.pdf)
+- <ins>Atomic Operation</ins> an operation during which a processor can simultaneously read a location and write it in the same bus operation. This prevents any other processor or I/O device from writing or reading memory until the operation is complete.
 

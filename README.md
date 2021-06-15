@@ -1,7 +1,7 @@
 # dining-philosophers
 dining philosophers problem
 ## philo
-philosopher with threads and mutex
+philosopher with threads and mutex. 
 arguments: number_of_philosophers time_to_die time_to_eat
 time_to_sleep [number_of_times_each_philosopher_must_eat]
 

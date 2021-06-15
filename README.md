@@ -1,5 +1,15 @@
 # dining-philosophers
 dining philosophers problem
+## philo
+philosopher with threads and mutex
+arguments: number_of_philosophers time_to_die time_to_eat
+time_to_sleep [number_of_times_each_philosopher_must_eat]
+
+## philo_bonus
+philosopher with processes and semaphore. 
+arguments: number_of_philosophers time_to_die time_to_eat
+time_to_sleep [number_of_times_each_philosopher_must_eat]
+
 ## notes
 - <ins>pthread_mutex_lock(&N_mutex)</ins> ensures that exactly ONE thread is sucessful in locking the mutex variable N_mutex.
 This particular thread will then be the only thread that will update the variable N, thus ensuring that N is updated sequential (one thread after another)
